@@ -1,8 +1,9 @@
 import React from 'react';
+import './styles/global.css'
 
 function App() {
   return (
-    <div> THIS WILL BE CENTER</div>
+    <div className='main'> THIS WILL BE CENTER</div>
   );
 }
 
