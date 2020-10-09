@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/easy-biz-email/static/css/main.3eeac126.chunk.css",
+    "main.js": "/easy-biz-email/static/js/main.e4c4b1bb.chunk.js",
+    "main.js.map": "/easy-biz-email/static/js/main.e4c4b1bb.chunk.js.map",
+    "runtime-main.js": "/easy-biz-email/static/js/runtime-main.1eb1d315.js",
+    "runtime-main.js.map": "/easy-biz-email/static/js/runtime-main.1eb1d315.js.map",
+    "static/js/2.6b13d354.chunk.js": "/easy-biz-email/static/js/2.6b13d354.chunk.js",
+    "static/js/2.6b13d354.chunk.js.map": "/easy-biz-email/static/js/2.6b13d354.chunk.js.map",
+    "index.html": "/easy-biz-email/index.html",
+    "precache-manifest.5aebec236972a7d2d7bb8a0c91cd5eb5.js": "/easy-biz-email/precache-manifest.5aebec236972a7d2d7bb8a0c91cd5eb5.js",
+    "service-worker.js": "/easy-biz-email/service-worker.js",
+    "static/css/main.3eeac126.chunk.css.map": "/easy-biz-email/static/css/main.3eeac126.chunk.css.map",
+    "static/js/2.6b13d354.chunk.js.LICENSE.txt": "/easy-biz-email/static/js/2.6b13d354.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1eb1d315.js",
+    "static/js/2.6b13d354.chunk.js",
+    "static/css/main.3eeac126.chunk.css",
+    "static/js/main.e4c4b1bb.chunk.js"
+  ]
+}
