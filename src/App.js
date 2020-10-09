@@ -1,9 +1,11 @@
 import React from 'react';
-import './styles/global.css'
+import NameForm from './lib/NameForm'
 
 function App() {
   return (
-    <div className='main'> THIS WILL BE CENTER</div>
+    <div>
+      <NameForm/>
+    </div>
   );
 }
 
