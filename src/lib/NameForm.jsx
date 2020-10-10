@@ -2,25 +2,35 @@ import React, { useState } from 'react'
 import '../styles/global.css'
 export default function NameForm() {
 
-  const [name, setName] = useState('their_name');
+  const [theirName, setTheirName] = useState('theirName');
+  const [myName, setMyName] = useState('myName');
 
-  const handleOnChange = (event) => {
-    setName(event.target.value);
+  const handleTheirNameOnChange = (event) => {
+    setTheirName(event.target.value);
+  }
+  const handleMyNameOnChange = (event) => {
+    setMyName(event.target.value);
   }
 
   return (
     <div className='main'>
       <input 
         type="text"
-        value={name}
-        onChange={handleOnChange}
+        value={theirName}
+        onChange={handleTheirNameOnChange}
       />
+      <input 
+        type="text"
+        value={myName}
+        onChange={handleMyNameOnChange}
+      />
+
       <div>
         output: <br/>
-        お世話になっております {name} 様 <br/>
-        {name} 大学の {name} です <br/>
+        お世話になっております {theirName} 様 <br/>
+        HOGE 大学の {myName} です <br/>
         以上、よろしくお願い申し上げます。
-        {name} 大学 {name}
+        HOGE 大学 {myName}
       </div>
     </div>
   )
