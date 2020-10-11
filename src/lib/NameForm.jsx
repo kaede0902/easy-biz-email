@@ -14,7 +14,7 @@ export default function NameForm() {
         onChange={ e => setTheirName( e.target.value ) }
       />
       <input 
-        type="text" ｗ
+        type="text"
         value={myName}
         onChange={ e => setMyName( e.target.value ) }
       />
