@@ -5,24 +5,18 @@ export default function NameForm() {
   const [theirName, setTheirName] = useState('theirName');
   const [myName, setMyName] = useState('myName');
 
-  const handleTheirNameOnChange = (event) => {
-    setTheirName(event.target.value);
-  }
-  const handleMyNameOnChange = (event) => {
-    setMyName(event.target.value);
-  }
 
   return (
     <div className='main'>
       <input 
         type="text"
         value={theirName}
-        onChange={handleTheirNameOnChange}
+        onChange={(e => { setTheirName(e.target.value) })}
       />
       <input 
         type="text"
         value={myName}
-        onChange={handleMyNameOnChange}
+        onChange={(e => { setMyName(e.target.value) })}
       />
 
       <div>
