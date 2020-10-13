@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/easy-biz-email/static/css/main.f72a47cc.chunk.css",
-    "main.js": "/easy-biz-email/static/js/main.2d6fd042.chunk.js",
-    "main.js.map": "/easy-biz-email/static/js/main.2d6fd042.chunk.js.map",
+    "main.js": "/easy-biz-email/static/js/main.9fb84b5c.chunk.js",
+    "main.js.map": "/easy-biz-email/static/js/main.9fb84b5c.chunk.js.map",
     "runtime-main.js": "/easy-biz-email/static/js/runtime-main.1eb1d315.js",
     "runtime-main.js.map": "/easy-biz-email/static/js/runtime-main.1eb1d315.js.map",
-    "static/js/2.bda74f83.chunk.js": "/easy-biz-email/static/js/2.bda74f83.chunk.js",
-    "static/js/2.bda74f83.chunk.js.map": "/easy-biz-email/static/js/2.bda74f83.chunk.js.map",
+    "static/js/2.7b8cb897.chunk.js": "/easy-biz-email/static/js/2.7b8cb897.chunk.js",
+    "static/js/2.7b8cb897.chunk.js.map": "/easy-biz-email/static/js/2.7b8cb897.chunk.js.map",
     "index.html": "/easy-biz-email/index.html",
-    "precache-manifest.e0f714b23b2790ddf25b4f9862de8dca.js": "/easy-biz-email/precache-manifest.e0f714b23b2790ddf25b4f9862de8dca.js",
+    "precache-manifest.d6374df6338281c0660889973fd96b25.js": "/easy-biz-email/precache-manifest.d6374df6338281c0660889973fd96b25.js",
     "service-worker.js": "/easy-biz-email/service-worker.js",
     "static/css/main.f72a47cc.chunk.css.map": "/easy-biz-email/static/css/main.f72a47cc.chunk.css.map",
-    "static/js/2.bda74f83.chunk.js.LICENSE.txt": "/easy-biz-email/static/js/2.bda74f83.chunk.js.LICENSE.txt"
+    "static/js/2.7b8cb897.chunk.js.LICENSE.txt": "/easy-biz-email/static/js/2.7b8cb897.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.1eb1d315.js",
-    "static/js/2.bda74f83.chunk.js",
+    "static/js/2.7b8cb897.chunk.js",
     "static/css/main.f72a47cc.chunk.css",
-    "static/js/main.2d6fd042.chunk.js"
+    "static/js/main.9fb84b5c.chunk.js"
   ]
 }
