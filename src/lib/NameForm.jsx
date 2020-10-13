@@ -10,6 +10,8 @@ export default function NameForm() {
 
   const [theirName, setTheirName] = useState('theirName');
   const [myName, setMyName] = useState('myName');
+  const [theirOrg, setTheirOrg] = useState('theirOrg');
+  const [myOrg, setMyOrg] = useState('myOrg');
 
 
   return (
@@ -40,9 +42,10 @@ export default function NameForm() {
           なんとか株式会社 {theirName} 様 <br/>
           お世話になっております <br/>
           どっか 大学の {myName} です <br/>
-
+          <br/ >
+          <br/ >
           面談はあの日でよろしくお願い申し上げます。 <br/>
-
+          <br/ >
           以上、よろしくお願い申し上げます。 <br/>
           どっか 大学 {myName}
         </Paper>
