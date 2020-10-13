@@ -32,18 +32,32 @@ export default function NameForm() {
           onChange={ e => setMyName( e.target.value ) }
         />
       </FormControl>
+      <FormControl >
+        <InputLabel htmlFor="my-input">相手の組織</InputLabel>
+        <Input 
+          value={theirOrg}
+          onChange={ e => setTheirOrg( e.target.value ) }
+        />
+      </FormControl>
+      <FormControl>
+        <InputLabel htmlFor="my-input">自分の組織</InputLabel>
+        <Input 
+          value={myOrg}
+          onChange={ e => setMyOrg( e.target.value ) }
+        />
+      </FormControl>
 
       <div>
         <Paper elevation={3}>
-          なんとか株式会社 {theirName} 様 <br/>
+          {theirOrg} {theirName} 様 <br/>
           お世話になっております <br/>
-          どっか 大学の {myName} です <br/>
+          {myOrg}の {myName} です <br/>
           <br/ >
           <br/ >
           面談はあの日でよろしくお願い申し上げます。 <br/>
           <br/ >
           以上、よろしくお願い申し上げます。 <br/>
-          どっか 大学 {myName}
+          {myOrg} {myName}
         </Paper>
       </div>
     </div>
