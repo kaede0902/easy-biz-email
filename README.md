@@ -1,5 +1,9 @@
 ## easy-biz-email
 
+
+[https://kaede0902.github.io/easy-biz-email/](
+https://kaede0902.github.io/easy-biz-email/)
+
 ```
 hogehoge 株式会社 bar 様
 hoge 大学 foo bar です
@@ -20,3 +24,13 @@ hogehoge 大学 foo bar
 
 * こういうのを毎回書くのが嫌になって
 * hooks でinput から即座に変換できるのが欲しくなった
+
+![sample.png](./src/sample.png)
+
+* 今のところこんな感じで使える
+
+* 曜日読み込みを次はやる予定
+
+
+[https://kaede0902.github.io/easy-biz-email/](
+https://kaede0902.github.io/easy-biz-email/)
