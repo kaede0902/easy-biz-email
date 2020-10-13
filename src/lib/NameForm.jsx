@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import '../styles/global.css'
 import { FormControl, InputLabel, Input, FormHelperText } from '@material-ui/core';
 
+import Paper from '@material-ui/core/Paper';
+
 export default function NameForm() {
 
   const [theirName, setTheirName] = useState('theirName');
@@ -32,11 +34,16 @@ export default function NameForm() {
       </FormControl>
 
       <div>
-        output: <br/>
-        お世話になっております {theirName} 様 <br/>
-        HOGE 大学の {myName} です <br/>
-        以上、よろしくお願い申し上げます。
-        HOGE 大学 {myName}
+        <Paper elevation={3}>
+          なんとか株式会社 {theirName} 様 <br/>
+          お世話になっております <br/>
+          どっか 大学の {myName} です <br/>
+
+          面談はあの日でよろしくお願い申し上げます。 <br/>
+
+          以上、よろしくお願い申し上げます。 <br/>
+          どっか 大学 {myName}
+        </Paper>
       </div>
     </div>
   )
