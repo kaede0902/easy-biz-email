@@ -1,8 +1,33 @@
-## easy-biz-email
-
+## 面談予約定型文メーカー
 
 [https://kaede0902.github.io/easy-biz-email/](
 https://kaede0902.github.io/easy-biz-email/)
+
+* こちらから使えます。スマフォ対応済み！
+
+![sample.png](./src/sample.png)
+
+面談の予約で毎回丁寧な言葉を打つの...面倒ですよね！！！
+
+そんな時はこの 面談予約定型文メーカーを使いましょう！
+
+これを使えば あなたは敬語なんて使わずに、
+
+- 相手と自分の組織名
+- 相手と自分の名前
+- 面談候補日
+
+を打ち込むだけで完璧な定型文章を整形してくれます！！
+
+[https://kaede0902.github.io/easy-biz-email/](
+https://kaede0902.github.io/easy-biz-email/)
+
+煩わしいビジネスメールから解放されて、
+爽やかな気持ちで面談に向かいましょう！！
+
+--------
+
+## なぜ作ったか
 
 ```
 hogehoge 株式会社 bar 様
@@ -22,15 +47,6 @@ hoge 大学 foo bar です
 hogehoge 大学 foo bar
 ```
 
-* こういうのを毎回書くのが嫌になって
-* hooks でinput から即座に変換できるのが欲しくなった
+* 面接落ちまくって、こう言うのを延々と書いているのが辛くなった
+* 前々から hooks でinput から即座に反映するおもちゃを作りたかった
 
-![sample.png](./src/sample.png)
-
-* 今のところこんな感じで使える
-
-* 曜日読み込みを次はやる予定
-
-
-[https://kaede0902.github.io/easy-biz-email/](
-https://kaede0902.github.io/easy-biz-email/)
