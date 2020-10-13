@@ -1,8 +1,10 @@
 import React, { useState } from 'react'
-import '../styles/global.css'
-import { FormControl, InputLabel, Input, FormHelperText } from '@material-ui/core';
+import { FormControl, InputLabel, Input,  } from '@material-ui/core';
 
 import Paper from '@material-ui/core/Paper';
+import Container from '@material-ui/core/Container';
+
+import Box from '@material-ui/core/Box';
 
 export default function NameForm() {
 
@@ -11,8 +13,10 @@ export default function NameForm() {
 
 
   return (
+    <Container maxWidth='sm'>
+    <Box my={8}>
     <div className='main'>
-      <FormControl>
+      <FormControl >
         <InputLabel htmlFor="my-input">相手の名前</InputLabel>
         <Input 
           id="my-input" 
@@ -20,7 +24,6 @@ export default function NameForm() {
           value={theirName}
           onChange={ e => setTheirName( e.target.value ) }
         />
-        <FormHelperText id="my-helper-text">相手の名前を入れてね</FormHelperText>
       </FormControl>
       <FormControl>
         <InputLabel htmlFor="my-input">自分の名前</InputLabel>
@@ -30,7 +33,6 @@ export default function NameForm() {
           value={myName}
           onChange={ e => setMyName( e.target.value ) }
         />
-        <FormHelperText id="my-helper-text">自分の名前を入れてね</FormHelperText>
       </FormControl>
 
       <div>
@@ -46,5 +48,7 @@ export default function NameForm() {
         </Paper>
       </div>
     </div>
+    </Box>
+    </Container>
   )
 }
