@@ -21,8 +21,6 @@ export default function NameForm() {
       <FormControl >
         <InputLabel htmlFor="my-input">相手の名前</InputLabel>
         <Input 
-          id="my-input" 
-          aria-describedby="my-helper-text" 
           value={theirName}
           onChange={ e => setTheirName( e.target.value ) }
         />
@@ -30,8 +28,6 @@ export default function NameForm() {
       <FormControl>
         <InputLabel htmlFor="my-input">自分の名前</InputLabel>
         <Input 
-          id="my-input" 
-          aria-describedby="my-helper-text" 
           value={myName}
           onChange={ e => setMyName( e.target.value ) }
         />
