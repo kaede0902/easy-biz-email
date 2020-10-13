@@ -11,12 +11,12 @@ export default function NameForm() {
       <input 
         type="text"
         value={theirName}
-        onChange={(e => { setTheirName(e.target.value) })}
+        onChange={ e => setTheirName( e.target.value ) }
       />
       <input 
         type="text"
         value={myName}
-        onChange={(e => { setMyName(e.target.value) })}
+        onChange={ e => setMyName( e.target.value ) }
       />
 
       <div>
