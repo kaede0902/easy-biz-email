@@ -1,13 +1,14 @@
 import React from "react";
 import copy from "copy-to-clipboard";
 
-export default function useCopyToClipboard(resetInterval = null) {
+export default function useCopyToClipboard() {
   const [isCopied, setCopied] = React.useState(false);
 
   function handleCopy(text) {
     if (typeof text === "string" || typeof text == "number") {
       copy(text.toString());
       setCopied(true);
+      alert(`your text is copied to clipboard!!!: ${text}`)
     } else {
       setCopied(false);
       console.error(
