@@ -8,6 +8,8 @@ import TextField from '@material-ui/core/TextField';
 
 import Box from '@material-ui/core/Box';
 
+import useCopyToClipboard from './useCopyToClipboard'
+
 export default function NameForm() {
 
   const [theirName, setTheirName] = useState('人事 太郎');
@@ -97,6 +99,7 @@ export default function NameForm() {
           {myOrg} {myName}
         </Paper>
       </Box>
+      <button>THIS WILL BE COPY BTN</button>
     </div>
     </Box>
     </Container>
